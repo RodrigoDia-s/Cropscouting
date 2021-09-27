@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crop Scouting</title>
+
+    <!-- update the version number as needed -->
+    <link rel="stylesheet" href="Design/Design.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+  </head>
+  <body >
+   
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+
+  <!--formater recurse-->
+    <header>
+      <div id="space"></div>
+
+     </header>
+  <!--formater recurse-->
+  <section id = "Block">
+    <!--setting the logo-->    
+      <div id="logo">
+          <img id="image" src="imagem/Logos-(PORT-EN).webp" alt="Lo">
+      </div>
+
+      <!--Log in form-->
+      <div class = "container">
+        <input id="txtEmail" type="email"  placeholder="Email">
+
+        <input id="txtPassword" type="password" placeholder="Password">
+
+        <button id="btnLogin" class="btn btn-action">
+          Log in
+        </button>
+        <button id="btnSignup" class="btn btn-secondary">
+          Sign Up
+        </button>
+        
+        
+       </div>
+      
+
+       <!--Adding the note form-->
+       <div class="form" id = "form">
+         <p id="pName">Your name:</p> 
+         <input id ="txtName" type="text" placeholder="Name">
+         <p id="pDate">Date:</p>
+         <input id="txtDate" type="date"> 
+         <p id = "pNote">Type your note right here:</p>
+        <textarea id="txtNote" name="post-text"
+         class="wmd-input s-input bar0 js-post-body-field processed"
+          data-post-type-id="2" cols="52" rows="15" tabindex="80"  data-min-length="" >
+        </textarea>
+        <button id="btnSave" class="btn btn-action">
+          Save
+        </button>
+        
+        <!--Log out button-->
+        <button id="btnLogout" class="btn btn-secondary">
+          Logout
+        </button>
+
+        <!--List of saved notes-->
+        <ul id="Notes-list">
+           
+        </ul>
+       </div>
+      
+     
+
+  </section>
+  <footer>
+      <p>&copy; Rodrigo Dias</p>
+      <!--Dark mode switch-->
+      <label class="switch">
+          <input name="theme" type="checkbox" id="night-mode" class="lamp" onchange="DarkMode(this)" />
+          <span class="slider round" ></span>
+        </label>
+  </footer>
+
+
+  <!--script reference-->
+  <script src="Scripts/Scripts.js"></script>
+
+  </body>
+</html>

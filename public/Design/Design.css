@@ -1,0 +1,323 @@
+body{
+    background-color: rgb(27, 139, 134);
+    font:  15pt Platino;
+    
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color:  white;
+    border-radius:  10px;
+    padding: 100px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+
+}
+footer{
+    color:white;
+    text-align: center;
+    font-style: inherit;
+}
+#login {
+    font-size: 28px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color:rgb(27, 139, 134);
+    padding: 2px 50px;
+    text-align: center;
+    color: #fff;
+    margin-left: 30%;
+    padding: auto;
+}
+#logo{
+    padding-left: 27%;
+    padding-top: 4%;
+    background-color: rgba(85, 85, 85, 0.33);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    padding: auto;
+    
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .Container {
+    position: relative;
+    position: center;
+}
+#space{
+  padding: 20px;
+}
+
+  #txtEmail {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  #txtPassword {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 50px;
+    position: relative;
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  #btnLogin {
+    position: absolute;
+    border: none;
+    padding: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 35px;
+    border-radius: 10px;
+    margin-left: 35px;
+    font:  15pt arial;
+    background-color:rgba(27, 139, 134, 0.65);
+    box-shadow: inset  0 0 0 rgba(24, 133, 127, 0.65);
+    color: white;
+  }
+
+  #btnLogin:hover{
+
+    box-shadow: inset 300px 0 0 0 rgba(74, 223, 215, 0.65);
+    cursor: pointer;
+    transition: 2s;
+  }
+  #btnSignup
+  {
+    position: relative;
+    border: none;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 35px;
+    border-radius: 10px;
+    font:  15pt arial;
+    color: white;
+    background-color:rgba(27, 139, 134, 0.65);
+    box-shadow: inset  0 0 0 rgba(24, 133, 127, 0.65);
+  }
+  #btnSignup:hover{
+
+    box-shadow: inset 300px 0 0 0 rgba(74, 223, 215, 0.65);
+    cursor: pointer;
+    transition: 2s;
+  }
+
+  #btnLogout {
+    position: relative;
+    border: none;
+    padding: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 35px;
+    border-radius: 10px;
+    margin-left: 35px;
+    font:  15pt arial;
+    background-color:rgba(27, 139, 134, 0.65);
+    box-shadow: inset  0 0 0 rgba(24, 133, 127, 0.65);
+    color: white;
+  }
+  #btnLogout:hover {
+
+    box-shadow: inset 300px 0 0 0 rgba(74, 223, 215, 0.65);
+    cursor: pointer;
+    transition: 2s;
+  }
+
+  
+
+  .form{
+    display: none;
+    position: relative;
+  }
+
+  #btnSave{
+    position: relative;
+    border: none;
+    padding: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 35px;
+    border-radius: 10px;
+    margin-left: 30%;
+    font:  15pt arial;
+    background-color:rgba(27, 139, 134, 0.65);
+    box-shadow: inset  0 0 0 rgba(24, 133, 127, 0.65);
+    color: white;
+    
+  }
+
+  #btnSave:hover {
+
+    box-shadow: inset 300px 0 0 0 rgba(74, 223, 215, 0.65);
+    cursor: pointer;
+    transition: 2s;
+  }
+
+  #txtName
+  {
+    position: relative;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: rgba(24, 133, 127, 0.65);
+  }
+  #txtNote{
+    position: relative;
+    font-size: 13pt;
+    border-radius: 10px;
+    border-color: rgba(24, 133, 127, 0.65);
+    border-width: 2px;
+  }
+  #pName{
+    position: relative;
+   
+
+  }
+  #pNote{
+    position: relative;
+  }
+  #pDate{
+    position: relative;
+  }
+  #txtDate{
+    position: relative;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: rgba(24, 133, 127, 0.65);
+  
+    
+  }
+
+  .table{
+    position: auto;
+    display: block;
+    margin-left: 100px;
+  }
+  #Notes-list{
+    position: relative;
+    background-color: rgba(27, 139, 134, 0.20);
+    padding:5px;
+    border-radius: 10px;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    padding: 20px;
+    margin-bottom: 5px;
+    background: #f6f6f6;
+    font-size: 20px;
+    color: #555;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+    height: auto;
+    border-radius: 10px;
+}
+
+li:nth-child(even){
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+li span{
+    display: block;
+}
+
+li span:nth-child(2){
+    font-size: 18px;
+    margin-top: 6px;
+    color: #999;
+}
+li span:nth-child(3){
+  
+  margin: auto;
+  
+}
+li div:nth-child(even){
+  background-color:#f2f2f2;
+
+}
+
+li div{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: rgba(255,255,255,0.6);
+    width: 40px;
+    text-align: center;
+    padding: 20px ;
+    font-weight:  bold;
+    cursor:  pointer;
+}
