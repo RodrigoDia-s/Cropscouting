@@ -9,7 +9,7 @@ header{
 }
 section{
     background-color:  white;
-    border-radius:  10px;
+    border-radius:  15px;
     padding: 100px;
     margin: auto;
     width: 500px;
@@ -33,8 +33,9 @@ footer{
     padding: auto;
 }
 #logo{
-    padding-left: 27%;
+    padding-left: 15%;
     padding-top: 4%;
+    padding-bottom: 4%;
     background-color: rgba(85, 85, 85, 0.33);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
     border-radius: 10px;
@@ -320,4 +321,8 @@ li div{
     padding: 20px ;
     font-weight:  bold;
     cursor:  pointer;
+}
+
+#image {
+  border-radius: 50px;
 }
